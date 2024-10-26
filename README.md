@@ -50,7 +50,6 @@ The infrastructure consists of three main components:
 4. AWS Systems Manager Session Manager plugin for your local machine
 
 ## Project Structure
-
 ```
 .
 ├── README.md
