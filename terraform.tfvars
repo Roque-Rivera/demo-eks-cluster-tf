@@ -1,6 +1,6 @@
 # General
 region       = "eu-central-1"
-project_name = "eks-private"
+project_name = "demo-eks-private"
 
 # VPC Configuration
 vpc_cidr = "10.0.0.0/16"
@@ -23,7 +23,7 @@ private_db_subnet_cidrs = [
 
 # EKS Configuration
 cluster_name             = "eks-private-cluster"
-kubernetes_version       = "1.27"
+kubernetes_version       = "1.31"
 cluster_endpoint_private_access = true
 cluster_endpoint_public_access  = false
 
@@ -43,7 +43,7 @@ worker_node_min_size     = 1
 
 # Jump Server Configuration
 jump_server_instance_type = "t3.micro"
-root_volume_size         = 20
+root_volume_size         = 30
 root_volume_type         = "gp3"
 enable_detailed_monitoring = false
 
